@@ -23,11 +23,18 @@
 
 .llamada__texto {
     font-size: 1.25rem;
-    line-height: normal;
+    line-height: 27.24px;
+
 
     margin: 0 auto 2.5rem;
 }
 
 .llamada__boton {
-    width: 100%;
+    width: 90%;
+    padding: 1rem 0;
+
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #B72E2E;
+    border-radius: 5px;
 }
