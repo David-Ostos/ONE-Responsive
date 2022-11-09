@@ -6,14 +6,14 @@
     color: #FFFFFF;
     text-align: center;
     
-    background-color: #00161C;
+    background-color: var(--background-llamada-mobile);
 
     padding-top: 12.25rem;
     padding-bottom: 2.5rem;
 }
 
 .llamada__titulo {
-    font-family: 'Montserrat', serif;
+    font-family: var(--montserrat);
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -28,11 +28,13 @@
 
     margin: 0 auto 2.5rem;
 }
-.llamada__boton{
-    width: 90%;
-    padding: 1rem 0;
+
+.llamada__boton {
+    width: 110%;
+    padding: 1rem 1rem;
+
     font-size: 18px;
     font-weight: 700;
-    border: 2px solid #B72E2E;
+    border: 1px solid var(--boton-rojo);
     border-radius: 5px;
 }
