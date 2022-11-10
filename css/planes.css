@@ -104,3 +104,29 @@
 .tarjetas__boton--mega {
     border-color: var(--planes-card-mega);
 }
+
+@media screen and (min-width: 768px) {
+    .tarjetas{
+        max-width: 400px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .planes__tarjetas {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .tarjetas {
+        max-width: 300px;
+    }
+
+    .tarjetas--ultra .tarjetas__contenido{
+
+        line-height: 5rem;
+    }
+    .tarjetas__boton--ultra{
+        line-height: 1.2rem;
+    }
+}
